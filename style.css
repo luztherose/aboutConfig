@@ -32,6 +32,8 @@ input:focus-within {
 }
 
 table {
+    display: flex;
+    flex-wrap: wrap;
     margin: 10px;
     width: calc(100% - 20px);
     table-layout: fixed;
